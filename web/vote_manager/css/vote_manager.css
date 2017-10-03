@@ -1,0 +1,30 @@
+.vote-buttons
+{
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+
+.btn-vote-pos,
+.btn-vote-neg
+{
+	font-family: courier, courier new, monospace;
+	font-weight: bold;
+}
+
+
+.btn-vote-pos.on
+{
+	background-color: #4f4;
+}
+
+.btn-vote-neg.on
+{
+	background-color: #f44;
+}
+
+.btn-vote-pos.off,
+.btn-vote-neg.off
+{
+	background-color: #ccc;
+}
+
